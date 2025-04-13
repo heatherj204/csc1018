@@ -1,0 +1,13 @@
+Implementing AVL Trees in Prolog.
+
+An AVL tree is a binary tree for which a special condition holds throughout the tree, namely, that at every node the height of the left and right subtrees differ by at most 1. A binary tree can be defined in terms of 2 predicates:
+
+    empty, the empty binary tree
+    bt(N,T1,T2) that is true if N is the root of a binary tree with left subtree T1 and right subtree T2, where all the items in T1 are less than or equal to N and all the items in T2 are greater than N.
+
+You have already covered AVL tress in your Data Structures module, but a brief recap is in the attached file.
+
+Write a Prolog program that implements the following predicates for an AVL tree:
+
+    insert(I,T1,T2) is true if T2 is the AVL tree resulting from I being inserted into an AVL tree T1.
+    display(T) is always true prints the AVL tree to the display. Programs that display the tree in a more "readable" manner will get higher marks.
